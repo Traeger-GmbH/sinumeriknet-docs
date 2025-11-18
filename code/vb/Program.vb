@@ -1,19 +1,19 @@
-'DOC
+' DOC
 Imports Sinumerik.Advanced
 
-'DOC
+' DOC
 Dim client = New SinumerikDevice("192.168.0.131")
 
-'DOC
+' DOC
 client.Connect();
 
-'DOC
+' DOC
 ' Your code to interact with the controller.
 
-'DOC
+' DOC
 client.Disconnect()
 
-'DOC
+' DOC
 Using var client = new SinumerikClient("s840d.sl://192.168.0.131"))
     client.Connect()
     ' Your code to interact with the controller.
